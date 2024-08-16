@@ -5,7 +5,6 @@ import Programs from './Component/Programs/Programs'
 import Title from './Component/Title/Title'
 import About from './Component/About/About'
 import Footer from './Component/Footer/Footer'
-import VideoPlayer from './Component/VedioPlayer/VideoPlayer'
 
 
 const App = () => {
@@ -21,8 +20,7 @@ const App = () => {
         <Programs />
         <About setPlayState={setPlayState}/>
         <Footer/>
-      </div>  
-      <VideoPlayer playState={playState} setPlayState={setPlayState}/>
+      </div>
     </div>
   )
 }
